@@ -16,7 +16,9 @@ This data is passed into a simple ANN:
 
 
 Accuracy graph (overfitted):
+
 ![image](https://user-images.githubusercontent.com/78157559/110809435-e1d7ce80-82aa-11eb-9830-aafa70674b2c.png)
 
 Final Accuracy graph:
+
 ![image](https://user-images.githubusercontent.com/78157559/110809615-1186d680-82ab-11eb-8bfd-68626ff1050d.png)
