@@ -27,3 +27,8 @@ Accuracy graph (overfitted):
 Final Accuracy graph:
 
 ![image](https://user-images.githubusercontent.com/78157559/110809615-1186d680-82ab-11eb-8bfd-68626ff1050d.png)
+
+
+Contributors:
+Dhruv Chawla
+Aryansh Bhargavan
