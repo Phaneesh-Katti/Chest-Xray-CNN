@@ -4,12 +4,12 @@ Developing a simple CNN
 Developing a CNN based on the Chest X-ray dataset from kaggle(www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
   (A simple exaple of Data_augmentation to deal with Overfitting: Usage of rescaling, zooming, width_shifting to create more data)
 
-The model takes images from the above mentioned dataset and it not only detects if the patient has pneomonia, but also is capable of classfying it into bacterial or viral pneumonia
+The model takes images from the above mentioned dataset and checks if the patient has pneuomonia or not.
 
 Model details:
 Usage of simple filter layers and pooling technique in feature extraction 
 
-    (3 feature extraction layers + 2 pooling layers)
+    (3 convolution layers with relu activation and 2 2D pooling layers)
     
     
 
@@ -27,3 +27,8 @@ Accuracy graph (overfitted):
 Final Accuracy graph:
 
 ![image](https://user-images.githubusercontent.com/78157559/110809615-1186d680-82ab-11eb-8bfd-68626ff1050d.png)
+
+
+Data Augmentation to reduce overfitting:
+
+    using zoom, width and height augmentation on the data
