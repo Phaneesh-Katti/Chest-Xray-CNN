@@ -9,12 +9,14 @@ The model takes images from the above mentioned dataset and it not only detects 
 Model details:
 Usage of simple filter layers and pooling technique in feature extraction 
 
-  (3 feature extraction layers + 2 pooling layers)
+    (3 feature extraction layers + 2 pooling layers)
+    
+    
 
 This data is passed into a simple ANN:
   
-  with 2 dense hidden layers with 32 and 64 neurons
-  adam optimizer, sparse categorical cross entropy loss function
+    with 2 dense hidden layers with 32 and 64 neurons
+    adam optimizer, sparse categorical cross entropy loss function
  
 
 
